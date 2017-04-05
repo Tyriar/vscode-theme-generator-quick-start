@@ -1,4 +1,6 @@
-A theme generated with [vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator).
+# vscode-theme-generator-quick-start
+
+**Clone and run for a quick way to get started with [vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator).**
 
 ## How to build the theme
 
