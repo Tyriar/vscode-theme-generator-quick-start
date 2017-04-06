@@ -14,4 +14,4 @@ Make your changes to the colors in index.ts and hit F5 to build the theme and la
 
 ## Publishing
 
-Before [publishing the extension](https://code.visualstudio.com/docs/extensions/publish-extension), make sure you update the name, displayName and publisher in the [package.json]().
+The official guidance from the team is to [avoid publishing until the theme format is finalized](http://code.visualstudio.com/updates/v1_11#_preview-workbench-theming). The reason for this is because the format might change so much that the theme breaks.
