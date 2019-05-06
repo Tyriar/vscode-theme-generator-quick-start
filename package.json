@@ -6,8 +6,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "prestart": "tsc index.ts",
-    "start": "node index.js"
+    "start": "code . --extensionDevelopmentPath=\"$(pwd)\" && npx gulp watch"
   },
   "engines": {
     "vscode": "^1.11.0"
@@ -26,6 +25,10 @@
   },
   "devDependencies": {
     "@types/node": "^7.0.10",
+    "child_process": "^1.0.2",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "through2": "^3.0.1",
     "typescript": "^2.2.1",
     "vscode-theme-generator": "*"
   }

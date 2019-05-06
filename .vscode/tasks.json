@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "command": "npm",
+  "command": "npx",
   "isShellCommand": true,
   "showOutput": "always",
   "suppressTaskName": true,
@@ -8,7 +8,7 @@
     {
       "isBuildCommand": true,
       "taskName": "build",
-      "args": ["start"]
+      "args": ["gulp"]
     }
   ]
 }
